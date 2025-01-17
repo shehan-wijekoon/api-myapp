@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/ads")
+@CrossOrigin
 public class adsController {
 
     @Autowired
